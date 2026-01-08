@@ -22,13 +22,6 @@
 .btn:hover{
     background-color: gray;
 }
-
-p{
-    font-size: 16px;
-    font-weight: 400px;
-    color: #627362;
-}
-
 /* nav-bar style */
 nav{
     display: flex;
@@ -125,5 +118,56 @@ nav .nav-menu ul a{
     background: transparent;
     border: 1px solid #FFFFFF;
     font-size: 16px;
+}
+
+/* note section style */
+.note{
+    margin-bottom: 120px;
+}
+.note-container{
+    padding: 0 120px;
+    text-align: center;
+}
+.note-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.note-container .note-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.note-container .note-card .card{
+    padding: 70px 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.note-container .note-card .card img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #F95555;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.note-container .note-card .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-container .note-card .card p{
+    margin-bottom: 0;
 }
 
