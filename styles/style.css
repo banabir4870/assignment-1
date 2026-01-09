@@ -103,7 +103,6 @@ nav .nav-menu ul a{
 
 .banner-container button{
     align-items: center;
-    text-align: center;
     display: inline-flex;
     gap: 10px;
 }
@@ -121,9 +120,6 @@ nav .nav-menu ul a{
 }
 
 /* note section style */
-.note{
-    margin-bottom: 120px;
-}
 .note-container{
     padding: 0 120px;
     text-align: center;
@@ -171,3 +167,132 @@ nav .nav-menu ul a{
     margin-bottom: 0;
 }
 
+/* brain section style */
+.brain-container{
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+}
+
+.brain-container img{
+    border-radius: 12px;
+}
+
+.brain-container .brain-info .solution{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-info .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.check img{
+    width: 18px;
+    height: 18px;
+}
+
+/* challenge section style */
+.challenge{
+    padding: 0 120px 120px 120px;
+}
+
+.challenge-container{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    text-align: center;
+}
+.challenge-container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.challenge-container .join{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.challenge-container button{
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.challenge-container .free{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+/* footer section style */
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-logos p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.social-logos{
+    display: flex;
+    gap: 16px;
+}
+.social-logos img{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    padding: 4px;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 30px;
+}
+
+.copy-right{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
